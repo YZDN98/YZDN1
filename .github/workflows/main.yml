@@ -39,4 +39,4 @@ jobs:
       - name: Push changes
         run: git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.YZDN_TOKEN_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
